@@ -39,20 +39,25 @@ export const navLinks = [
     id: "contact",
     title: "Contact",
   },
+  
 ];
 
 const services = [
   {
-    title: "Android Developer",
+    title: "Full Stack Developer",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "ReactJS Developer",
     icon: mobile,
   },
   {
     title: "Backend Developer",
     icon: backend,
+  },
+  {
+    title: "Fornt End Developer",
+    icon: creator,
   },
   {
     title: "Web App Developer",
@@ -116,6 +121,20 @@ const technologies = [
 ];
 
 const experiences = [
+  {
+    title: "Associate Lead",
+    company_name: "Google Developer Club DPCOE",
+    icon: shopify,
+    iconBg: "#383E56",
+    date: "September 2023- Present",
+    points: [
+      "Milestone Software(Security Software).",
+      "Managing back-end database data using Microsoft SQL Server.",
+      "CCTV Camera Software Configuration.",
+      "OS Migration on Server",
+      "CCTV Camera & Access Control Device Configuration.",
+    ],
+  },
   {
     title: "Jr. Software Engineer",
     company_name: "Smarttech Secure Solution PVT. LTD.",

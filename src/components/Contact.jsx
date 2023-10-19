@@ -8,6 +8,7 @@ import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
 
 const Contact = () => {
+
   const formRef = useRef();
   const [form, setForm] = useState({
     name: "",
@@ -30,12 +31,12 @@ const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     setLoading(true);
-//Tx47PrtfrkbcqJf1F
-//template_nwr41j2
-//service_32vgvo4
+//template_nwr41j2-- templete id
+//service_99m2rur
+//pub-- Tx47PrtfrkbcqJf1F
     emailjs
       .send(
-        'service_32vgvo4',
+        'service_99m2rur',
         'template_nwr41j2',
         {
           from_name: form.name,
@@ -129,6 +130,7 @@ const Contact = () => {
         variants={slideIn("right", "tween", 0.2, 1)}
         className='xl:flex-1 xl:h-auto md:h-[550px] h-[350px]'
       >
+        
         <EarthCanvas />
       </motion.div>
     </div>
